@@ -1,0 +1,46 @@
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+h1 {
+    color: yellow;
+}
+
+div {
+    font-size: 50px;
+    font-family:"Microsoft JhengHei";
+    color: yellow;
+}
+
+.center{
+    text-align: center;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: multiply;
+
+
+    /* background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center center; */
+    
+    background-image:url('../media/car90.jpg');
+    /* background-size: cover */
+    background-repeat: no-repeat ;
+    /* background-color: red; */
+}
+#middle {
+    position:absolute; height:400px; top:20%; margin-top:-200px; /* div高度的一半 */
+    top:500px;
+    left:180px
+        
+}
+button {
+    height: 139px;
+    width: 230px;
+    position:absolute; 
+    top:18px;
+    left:470px
+    
+}
